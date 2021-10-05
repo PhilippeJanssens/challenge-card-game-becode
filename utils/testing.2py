@@ -1,0 +1,15 @@
+#from card import Card
+
+var_testing = Card("♥", "7")
+print(var_testing)
+print(var_testing.icon)
+
+def play(player_name, shape, value):
+    var_testing = Card("♥", "7")
+    print(var_testing)
+    print(var_testing.icon)
+    return var_testing
+
+var_testing_play = play("Jon", "heart", 4)
+
+print(var_testing_play)
