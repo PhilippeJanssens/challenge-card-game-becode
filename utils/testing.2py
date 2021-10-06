@@ -1,4 +1,10 @@
-#from card import Card
+"""python - how to properly import a method from a class in another file"""
+"""Instance methods -> These are tied to an object, they receive self as the first argument, which is the object
+Class methods -> Which are common for all objects of a class, and the first argument is cls for these methods instead of self
+Static methods -> They are also tied to a class, but they neither receive class or object instance as their first argument. This is as good as having a standalone function, outside a class definition.
+"""
+
+from card import Card
 
 var_testing = Card("♥", "7")
 print(var_testing)
